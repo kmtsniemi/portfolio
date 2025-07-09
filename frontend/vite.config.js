@@ -13,5 +13,10 @@ export default defineConfig({
     alias: {
       "@": path.resolve(__dirname, "./frontend/src")
     }
+  },
+  base: "/portfolio/",
+  server: {
+    open: true,
+    port: 3001
   }
 })
