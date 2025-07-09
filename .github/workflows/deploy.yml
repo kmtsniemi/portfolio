@@ -10,10 +10,6 @@ jobs:
   build-deploy:
     runs-on: ubuntu-latest
 
-    defaults: 
-      run:
-        working-directory: ./frontend
-
     steps:
       # Checkout the repository
       - name: Checkout code
